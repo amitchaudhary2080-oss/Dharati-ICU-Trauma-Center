@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Dharati ICU & Trauma Centre - 24×7 Emergency, ICU, Critical Care and Neurosurgery in Palanpur.">
+<title>Dharati ICU & Trauma Centre | Palanpur</title>
+<style>
+:root{--primary:#0b7189;--dark:#073b4c;--light:#f3fbfd;--accent:#14a085;--text:#17323b;--white:#fff}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;color:var(--text);line-height:1.6;background:#fff}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid #e6eef0}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{font-weight:800;color:var(--dark);font-size:18px;letter-spacing:.3px}
+.brand span{display:block;font-size:10px;color:var(--primary);letter-spacing:2px}
+nav{display:flex;gap:24px;font-size:14px;font-weight:700}
+nav a:hover{color:var(--primary)}
+.menu{display:none;border:0;background:none;font-size:28px}
+.hero{background:linear-gradient(135deg,#e9f9fc 0%,#fff 58%,#eefaf7 100%);padding:90px 0 75px;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:50px;align-items:center}
+.badge{display:inline-block;background:#d9f4f7;color:var(--primary);padding:8px 14px;border-radius:30px;font-size:13px;font-weight:800;margin-bottom:18px}
+h1{font-size:clamp(38px,5vw,66px);line-height:1.06;color:var(--dark);margin-bottom:20px}
+.hero p{font-size:18px;color:#4b6269;max-width:650px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 20px;border-radius:10px;font-weight:800;border:2px solid var(--primary)}
+.btn.primary{background:var(--primary);color:white}
+.btn.secondary{background:white;color:var(--primary)}
+.emergency-card{background:linear-gradient(160deg,var(--dark),#0b7189);color:white;padding:34px;border-radius:24px;box-shadow:0 25px 60px rgba(7,59,76,.2)}
+.emergency-card small{letter-spacing:2px;text-transform:uppercase;opacity:.8}
+.emergency-card h2{font-size:34px;margin:10px 0}
+.emergency-card .number{font-size:25px;font-weight:900;margin:15px 0}
+section{padding:78px 0}
+.section-head{text-align:center;max-width:720px;margin:0 auto 42px}
+.section-head h2{font-size:36px;color:var(--dark);margin-bottom:10px}
+.section-head p{color:#63777d}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{padding:28px;border:1px solid #e2ecef;border-radius:18px;background:white;box-shadow:0 8px 30px rgba(7,59,76,.06)}
+.card .icon{font-size:30px;margin-bottom:12px}
+.card h3{color:var(--dark);margin-bottom:8px}
+.card p{color:#63777d;font-size:15px}
+.alt{background:var(--light)}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}
+.about-box{background:var(--dark);color:white;border-radius:24px;padding:40px}
+.about-box h3{font-size:28px;margin-bottom:12px}
+.doctors{grid-template-columns:repeat(2,1fr)}
+.doctor{display:flex;gap:20px;align-items:flex-start}
+.avatar{width:70px;height:70px;border-radius:50%;background:#d9f4f7;display:flex;align-items:center;justify-content:center;font-size:26px;flex:none}
+.doctor h3{margin-bottom:4px}
+.doctor .qual{color:var(--primary);font-size:13px;font-weight:800}
+.emergency-strip{background:linear-gradient(90deg,#073b4c,#0b7189);color:white;padding:42px 0}
+.strip{display:flex;justify-content:space-between;align-items:center;gap:20px}
+.strip h2{font-size:30px}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.contact-list{display:grid;gap:15px}
+.contact-item{padding:20px;border-radius:14px;background:var(--light)}
+.contact-item strong{display:block;color:var(--dark);margin-bottom:4px}
+footer{background:#062d3a;color:#d9e8eb;padding:32px 0}
+.footer-flex{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+footer small{opacity:.75}
+@media(max-width:800px){
+ nav{display:none;position:absolute;top:76px;left:0;right:0;background:#fff;padding:20px;flex-direction:column;border-bottom:1px solid #ddd}
+ nav.open{display:flex}
+ .menu{display:block}
+ .hero-grid,.about-grid,.contact{grid-template-columns:1fr}
+ .grid,.doctors{grid-template-columns:1fr}
+ .hero{padding-top:55px}
+ section{padding:58px 0}
+ .strip{flex-direction:column;text-align:center}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <a class="brand" href="#home">DHARATI ICU & TRAUMA CENTRE<span>COMPASSION | CRITICAL CARE | COMMITMENT</span></a>
+    <button class="menu" onclick="document.querySelector('nav').classList.toggle('open')" aria-label="Open menu">☰</button>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#doctors">Doctors</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="container hero-grid">
+    <div>
+      <div class="badge">24×7 EMERGENCY & TRAUMA CARE</div>
+      <h1>Compassionate care when every moment matters.</h1>
+      <p>Dharati ICU & Trauma Centre provides round-the-clock emergency, ICU and critical care services with experienced medical professionals and dedicated patient care.</p>
+      <div class="actions">
+        <a class="btn primary" href="#contact">Contact Us</a>
+        <a class="btn secondary" href="https://wa.me/917201088173?text=Hello%20Dharati%20ICU%20%26%20Trauma%20Centre" target="_blank" rel="noopener">WhatsApp Us</a>
+        <a class="btn secondary" href="#services">Explore Services</a>
+      </div>
+    </div>
+    <div class="emergency-card">
+      <small>Emergency Care</small>
+      <h2>Need urgent medical attention?</h2>
+      <p>Our emergency and critical care team is available 24×7.</p>
+      <div class="number">Emergency: 24×7</div>
+      <a class="btn secondary" href="#contact">Get Directions</a>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container about-grid">
+    <div>
+      <div class="badge">ABOUT DHARATI</div>
+      <h2 style="font-size:38px;color:#073b4c;margin-bottom:16px">Focused on critical care, compassion and commitment.</h2>
+      <p>Dharati ICU & Trauma Centre, Palanpur, is focused on timely medical attention, critical care and emergency services. Our team works to provide patients and families with clear communication and dedicated care.</p>
+    </div>
+    <div class="about-box">
+      <h3>24×7 Critical Care</h3>
+      <p>Designed to support patients requiring continuous observation, emergency treatment and intensive medical management.</p>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="services">
+  <div class="container">
+    <div class="section-head">
+      <h2>Our Services</h2>
+      <p>Medical services focused on emergency response and critical patient care.</p>
+    </div>
+    <div class="grid">
+      <div class="card"><div class="icon">🚑</div><h3>Emergency & Trauma Care</h3><p>Round-the-clock emergency support for urgent medical and trauma cases.</p></div>
+      <div class="card"><div class="icon">🏥</div><h3>ICU & Critical Care</h3><p>Continuous monitoring and critical care support for seriously ill patients.</p></div>
+      <div class="card"><div class="icon">🧠</div><h3>Neurosurgery</h3><p>Access to a full-time neurosurgeon for specialized neurological and surgical care.</p></div>
+      <div class="card"><div class="icon">🩺</div><h3>General Medicine</h3><p>Medical consultation, assessment and management for a range of conditions.</p></div>
+      <div class="card"><div class="icon">❤️</div><h3>Critical Care Support</h3><p>Dedicated medical supervision and supportive care for critically ill patients.</p></div>
+      <div class="card"><div class="icon">⏱️</div><h3>24×7 Availability</h3><p>Emergency and critical-care services available around the clock.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="doctors">
+  <div class="container">
+    <div class="section-head">
+      <h2>Our Doctors</h2>
+      <p>Experienced medical professionals dedicated to patient care.</p>
+    </div>
+    <div class="grid doctors">
+      <div class="card doctor"><div class="avatar">DR</div><div><h3>Dr. Ronak Patel</h3><div class="qual">MBBS, MD PHYSICIAN</div><p>Medical physician providing patient-focused medical care.</p></div></div>
+      <div class="card doctor"><div class="avatar">DR</div><div><h3>Dr. Prakash B. Chaudhary</h3><div class="qual">MBBS, CRITICAL CARE SPECIALIST & MEDICAL OFFICER</div><p>Critical care and emergency medical support.</p></div></div>
+      <div class="card doctor"><div class="avatar">NS</div><div><h3>Full-Time Neurosurgeon</h3><div class="qual">NEUROSURGICAL CARE</div><p>Specialized neurosurgical care available on a full-time basis.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<div class="emergency-strip">
+  <div class="container strip">
+    <div><h2>24×7 Emergency Care</h2><p>For urgent medical assistance, contact the hospital directly.</p></div>
+    <a class="btn secondary" href="#contact">Contact Hospital</a>
+  </div>
+</div>
+
+<section id="contact">
+  <div class="container">
+    <div class="section-head">
+      <h2>Contact Us</h2>
+      <p>Visit or contact Dharati ICU & Trauma Centre, Palanpur.</p>
+    </div>
+    <div class="contact">
+      <div class="contact-list">
+        <div class="contact-item"><strong>Hospital Address</strong>At the end of the bridge, in Desai Hospital Lane, Doctor House Area, Palanpur, Gujarat, India</div>
+        <div class="contact-item"><strong>Availability</strong>24×7 Emergency & Critical Care</div>
+        <div class="contact-item"><strong>WhatsApp</strong>
+<a href="https://wa.me/917201088173" target="_blank" rel="noopener" style="color:#0b7189;font-weight:800">Chat with us on WhatsApp</a>
+</div>
+<div class="contact-item"><strong>Emergency</strong>Please call the hospital emergency number for urgent medical assistance.</div>
+      </div>
+      <div class="card">
+        <h3 style="font-size:25px;color:#073b4c;margin-bottom:12px">Dharati ICU & Trauma Centre</h3>
+        <p style="margin-bottom:20px">COMPASSION | CRITICAL CARE | COMMITMENT</p>
+        <a class="btn primary" href="https://www.google.com/maps/search/?api=1&query=Dharati+ICU+%26+Trauma+Centre+Palanpur" target="_blank" rel="noopener">Open in Google Maps</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer-flex">
+    <div><strong>DHARATI ICU & TRAUMA CENTRE</strong><br><small>COMPASSION | CRITICAL CARE | COMMITMENT</small></div>
+    <small>© 2026 Dharati ICU & Trauma Centre. All rights reserved.</small>
+  </div>
+</footer>
+
+</body>
+</html>
